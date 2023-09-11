@@ -1,1 +1,19 @@
+Installing MySQL Server
+https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing
+
+Installing MySQL Workbench
+https://dev.mysql.com/doc/workbench/en/wb-installing.html
+
+Starting the Server from within Workbench. (see "Step 0" image)
+1. Go to the "Server" menu and choose "Startup/Shutdown" or choose the Startup/Shutdown option in the sidebar under "Instance"
+2. Press the "Start Server" button
+
+Importing the Database (this assumes you have downloaded the provided file)
+1. Go to the "Server" menu and choose "Data Import" (see step 1 image)
+2. Choose the downloaded FarmersMarketDatabase.sql file from the folder you downloaded it to. The script has the schema creation built in and will create a schema called farmers_market, so you don't need to enter a target schema. (see step 2 image)
+3. Scroll down and click the "Start Import" button.
+4. After the database has restored, you can open a new SQL tab (use the first icon, which is labeled with the word SQL and +), and start writing and running queries.
+
+
+Note: The accompanying figures are from MySQL Workbench 8.0.
 
